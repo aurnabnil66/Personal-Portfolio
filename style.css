@@ -29,6 +29,27 @@ header{
     top: 0;
     right: 0;
     z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 30px 18%;
+    transition: 0.3s;
+}
+
+.navlist{
+    display: flex;
+}
+
+.navlist li{
+    position: relative;
+}
+
+.navlist a{
+    font-size: var(--p-font);
+    color: var(--text-color);
+    font-weight: 500;
+    padding: 10px 27px;
 }
 
 
