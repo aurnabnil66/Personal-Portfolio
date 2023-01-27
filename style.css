@@ -12,7 +12,7 @@
     --bg-color: #1d2833;
     --text-color: #ffffff;
     --second-color: #a09dab;
-    /*--main-color: #f75023; */
+    --main-color: #f75023;
     --big-font: 5rem;
     --h2-point: 3rem;
     --p-font: 1.1rem;
@@ -52,12 +52,27 @@ header{
     padding: 10px 27px;
 }
 
+.navlist a::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: var(--main-color);
+    bottom: -3px;
+    left: 0;
+    transition: ease 0.40s;
+}
+
+.navlist a:hover::after{
+    width: 100%;
+}
+
 
 /* hero background image */
 
 .bgImage {
     height: 100vh;
-    background: url('Images/heroImage.jpeg');
+    background: url('');
     background-size: cover;
     position: relative;
 }
