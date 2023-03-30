@@ -48,6 +48,7 @@ header{
 }
 
 .navlist a{
+    text-decoration: none;
     font-size: var(--p-font);
     color: var(--text-color);
     font-weight: 500;
@@ -77,6 +78,7 @@ header{
     border-radius: 30px;
     color: var(--text-color);
     letter-spacing: 1px;
+    text-decoration: none;
     font-size: var(--p-font);
     font-weight: 500;
     transition: ease 0.50s;
@@ -143,6 +145,7 @@ span{
     justify-content: center;
     background: #1abc9c;
     font-size: 23px;
+    text-decoration: none;
     color: var(--bg-color);
     margin-right: 22px;
     margin-bottom: 30px;
